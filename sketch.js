@@ -104,7 +104,7 @@ function draw() {
     }
   }
   else if(gameState===END){
-           
+           score = 0;
            back.visible = false;
            fruitGroup.velocityY = 0;
            monstersG.velocityY = 0;
